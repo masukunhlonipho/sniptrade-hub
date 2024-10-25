@@ -1,0 +1,116 @@
+/* src/modules/buyer/Account.css */
+
+.account {
+    max-width: 800px; /* Set a maximum width for the account page */
+    margin: 20px auto; /* Center the account page */
+    padding: 20px; /* Add padding */
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    min-height: calc(100vh - 320px); /* Adjust based on your footer height */
+}
+
+.account h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #007bff; /* Theme color for headings */
+}
+
+.error-message {
+    color: #dc3545; /* Red color for error messages */
+    margin-top: 10px; /* Space above error message */
+    text-align: center; /* Center the message */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.account-input {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.add-address {
+    display: flex; /* Use flexbox for adding address */
+    gap: 10px; /* Space between input and button */
+    margin-top: 10px; /* Space above add address section */
+}
+
+.add-address-button,
+.update-button,
+.edit-button,
+.cancel-button,
+.remove-address-button { /* Include the remove button here */
+    padding: 10px; /* Padding for buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.add-address-button {
+    background-color: #007bff; /* Theme blue */
+    color: white; /* White text color */
+}
+
+.add-address-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.update-button {
+    background-color: #007bff; /* Theme blue */
+    color: white; /* White text color */
+    margin-top: 15px; /* Space above the button */
+}
+
+.update-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.edit-button,
+.cancel-button {
+    padding: 10px 15px;
+    background-color: #ffc107; /* Gold color */
+    color: #f8f9fa; /* White text */
+    margin-top: 10px; /* Space above the button */
+}
+
+.edit-button:hover {
+    background-color: #e0a800; /* Darker gold on hover */
+}
+
+.cancel-button {
+    background-color: #dc3545; /* Red color for cancel */
+    margin-left: 10px; /* Space between buttons */
+}
+
+.cancel-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* New styles for address items */
+.address-item {
+    display: flex; /* Use flexbox for address display */
+    justify-content: space-between; /* Space between address and button */
+    align-items: center; /* Center items vertically */
+    padding: 8px; /* Padding for address item */
+    border: 1px solid #ddd; /* Light border for address */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below each address */
+    background-color: #ffffff; /* White background for address */
+}
+
+.remove-address-button {
+    background-color: #dc3545; /* Red color for remove button */
+    color: white; /* White text */
+    padding: 5px 10px; /* Padding for remove button */
+    margin-left: 10px; /* Space between address and remove button */
+}
+
+.remove-address-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}

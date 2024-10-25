@@ -1,0 +1,144 @@
+/* src/modules/buyer/BuyerHome.css */
+
+.buyer-home {
+  max-width: 1200px; /* Wider max width for larger screens */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Softer shadow */
+}
+
+.buyer-home-header {
+  text-align: center;
+  margin-bottom: 30px; /* Increased spacing */
+}
+
+.search-input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 70%; /* More room for input */
+  max-width: 400px; /* Max width for input */
+  margin-top: 10px;
+  font-size: 16px; /* Increased font size for readability */
+}
+
+.promotions {
+  background-color: #007bff; /* Highlight color for promotions */
+  color: #ffffff; /* White text */
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px; /* Spacing below promotions */
+}
+
+.product-list {
+  margin: 20px 0;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+}
+
+.product-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Rounded corners */
+  background-color: #ffffff; /* Card background */
+  text-align: center;
+  transition: box-shadow 0.3s; /* Smooth shadow transition */
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+.product-image {
+  width: 100%; /* Make the image take the full width of the card */
+  height: 150px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 5px; /* Rounded corners for the images */
+}
+
+.buy-button {
+  padding: 10px;
+  background-color: #ffc107; /* Gold button */
+  color: #343a40;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
+  margin-top: 10px; /* Space above button */
+}
+
+.wishlist-button {
+  padding: 10px;
+  background-color: #28a745; /* Green button for wishlist */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
+  margin-top: 10px; /* Space above button */
+  margin-left: 10px; /* Space between buttons */
+}
+.buy-button:hover {
+  background-color: #ffd600; /* Hover effect */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.wishlist-button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.categories {
+  margin: 20px 0;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: space-around; /* Space between buttons */
+  margin-top: 10px;
+}
+
+.category-button {
+  padding: 10px 20px; /* Padding for better touch area */
+  background-color: #007bff; /* Theme blue */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
+}
+
+.category-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .buyer-home {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  .search-input {
+    width: 90%; /* More width for input on mobile */
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
+
+  .category-buttons {
+    flex-direction: column; /* Stack category buttons on mobile */
+  }
+
+  .category-button {
+    margin: 5px 0; /* Space between stacked buttons */
+  }
+}

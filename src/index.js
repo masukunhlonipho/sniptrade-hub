@@ -1,17 +1,27 @@
+// src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 
+// Initial PayPal configuration
+const initialOptions = {
+  "client-id": "ASITobn1tcaROkEVqofTY9ckJoZLI1nV_ohnMbl5hPzDXSTeMRD78-1Hnpf_Xa6V88EJZrWsI5Mm4_Ky", // Replace with your PayPal client ID
+  currency: "USD",
+  intent: "capture",
+};
+
+// Use the correct ID for the root element
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <PayPalScriptProvider options={initialOptions}>
+      <App />
+    </PayPalScriptProvider>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// Performance logging (optional)
 reportWebVitals();

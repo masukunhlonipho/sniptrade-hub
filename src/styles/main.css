@@ -1,0 +1,24 @@
+/* src/styles/main.css */
+.landing-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  

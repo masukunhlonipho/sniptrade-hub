@@ -1,0 +1,76 @@
+/* src/components/HeaderHome.css */
+
+.header-home {
+    display: flex;
+    justify-content: space-between; /* Aligns items at the ends */
+    align-items: center; /* Centers items vertically */
+    padding: 20px;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    overflow:hidden;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center; /* Aligns logo and site name vertically */
+  }
+  
+  .logo {
+    width: 50px; /* Logo width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and name */
+  }
+  
+  .site-name {
+    font-size: 24px; /* Larger font size for site name */
+    font-weight: bold; /* Bold site name */
+  }
+  
+  .nav-menu {
+    flex-grow: 1; /* Allows navigation to take available space */
+    display: flex; /* Aligns navigation links in a row */
+    justify-content: center; /* Center the navigation links */
+  }
+  
+  .nav-menu a {
+    color: white; /* White text for links */
+    text-decoration: none; /* No underline */
+    margin: 0 15px; /* Space between links */
+    font-size: 18px; /* Font size for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-menu a:hover {
+    color: #ffd700; /* Change color on hover */
+  }
+  
+  .search-container {
+    display: flex; /* Aligns search bar and button in a row */
+    align-items: center; /* Center vertically */
+  }
+  
+  .search-bar {
+    padding: 10px; /* Padding for search input */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 5px; /* Space between input and button */
+    font-size: 15px;
+
+  }
+  
+  .search-button, .search-button img {
+    padding: 10px 15px; /* Padding for search button */
+    border: none; /* No border */
+    background-color: #ffd700; /* Gold background */
+    color: black; /* Black text */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-size: 15px;
+
+  }
+  
+  .search-button:hover {
+    background-color: #ffc107; /* Darker gold on hover */
+  }
+  

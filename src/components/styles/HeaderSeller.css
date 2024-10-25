@@ -1,0 +1,56 @@
+/* src/components/HeaderFooter.css */
+
+/* General Header Styles */
+header {
+    background-color: #007bff; /* System theme blue */
+    color: #ffffff; /* White text for contrast */
+    padding: 15px; /* Padding around the header */
+    text-align: center;
+  }
+  
+  nav {
+    margin: 10px 0; /* Space below the header title */
+  }
+  
+  nav a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Space between navigation items */
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  nav a:hover {
+    color: #ffc107; /* Change color on hover to gold */
+  }
+  
+  /* General Footer Styles */
+  footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px; /* Padding around the footer */
+    text-align: center;
+    position: relative; /* Ensure proper positioning */
+    bottom: 0; /* Stick to bottom if necessary */
+    width: 100%; /* Full width */
+  }
+  
+  .footer-seller p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      font-size: 18px; /* Adjust font size for mobile */
+    }
+    
+    nav a {
+      margin: 0 10px; /* Adjust margin for smaller screens */
+    }
+  
+    footer {
+      font-size: 14px; /* Adjust footer font size for mobile */
+    }
+  }
+  

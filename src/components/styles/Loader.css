@@ -1,0 +1,33 @@
+/* src/styles/Loader.css */
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full page height for central positioning */
+    background-color: rgba(255, 255, 255, 0.9); /* Light overlay effect */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure loader appears on top */
+  }
+  
+  .spinner {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #f3f3f3; /* Light gray border */
+    border-top: 10px solid #007bff; /* System theme blue for spinner */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

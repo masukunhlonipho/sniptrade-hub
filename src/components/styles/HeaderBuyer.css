@@ -1,0 +1,95 @@
+/* src/components/HeaderBuyer.css */
+.header-buyer {
+  display: flex;
+  justify-content: space-between; /* Space between logo and nav */
+  align-items: center; /* Align items vertically */
+  padding: 15px 20px;
+  background-color: #007bff; /* System theme blue */
+  color: #ffffff; /* White text for contrast */
+  width: 100%; /* Full width */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Center logo and site name */
+}
+
+.logo {
+  height: 40px; /* Adjust logo size */
+  margin-right: 10px; /* Space between logo and site name */
+}
+
+.site-name {
+  font-size: 24px; /* Site name size */
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex; /* Flex layout for nav menu */
+  gap: 20px; /* Space between menu items */
+  align-items: center; /* Center nav items vertically */
+}
+
+.nav-menu a {
+  color: #ffffff; /* White text for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-menu a:hover {
+  color: #ffc107; /* Change color on hover to gold */
+}
+
+.logout-button {
+  background-color: #dc3545; /* Red for logout */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.search-container {
+  display: flex; /* Flexbox for search container */
+  align-items: center; /* Center items vertically */
+}
+
+.search-bar {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px; /* Width of search bar */
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #ffc107; /* Gold button */
+  color: #343a40;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 5px; /* Space between search bar and button */
+}
+
+.search-button:hover {
+  background-color: #ffd600; /* Hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-buyer {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-start; /* Align items to the start */
+  }
+  .nav-menu {
+    flex-direction: column; /* Stack menu items */
+    gap: 10px; /* Space between items */
+  }
+}

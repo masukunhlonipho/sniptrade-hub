@@ -1,0 +1,15 @@
+/* Add this to your Auth.css or relevant CSS file */
+.logout-button {
+    background-color: #ff4d4d; /* Example red color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 20px; /* Spacing from other links */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .logout-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+  }
+  

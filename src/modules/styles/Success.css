@@ -1,0 +1,41 @@
+/* Success.css */
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8f5e9;
+    min-height: calc(100vh - 270px); /* Adjust based on your footer height */
+    padding: 20px;
+  }
+  
+  .success-heading {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #4caf50;
+    text-align: center;
+  }
+  
+  .success-message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 500px;
+  }
+  
+  .success-button {
+    padding: 12px 30px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .success-button:hover {
+    background-color: #45a049;
+  }
+  

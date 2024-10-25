@@ -1,0 +1,54 @@
+/* src/modules/seller/SellerPage.css */
+
+.seller-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .seller-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .seller-content {
+    margin: 20px 0;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .action-button {
+    padding: 10px 15px;
+    background-color: #ffc107; /* Gold button */
+    color: #343a40;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1; /* Flex to evenly distribute buttons */
+    margin: 0 5px; /* Add some space between buttons */
+  }
+  
+  .action-button:hover {
+    background-color: #ffd600; /* Hover effect */
+  }
+  
+  .info-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef; /* Slightly darker background for contrast */
+    border-radius: 5px;
+  }
+  
+  .seller-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

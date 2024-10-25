@@ -1,0 +1,50 @@
+/* src/components/styles/FooterHome.css */
+
+.footer-home {
+    background-color: #343a40; /*Dark background*/
+    color: white; /* White text */
+    padding: 20px; /* Padding around the footer */
+    text-align: center; /* Center text */
+    overflow: hidden;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align */
+  }
+  
+  .footer-links {
+    margin-bottom: 15px; /* Space below the links */
+  }
+  
+  .footer-links a {
+    color: #ffd700; /* Gold color for links */
+    text-decoration: none; /* No underline *
+    margin: 0 10px; /* Space between links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .footer-links a:hover {
+    color: #ffc107; /* Change color on hover */
+  }
+  
+  .footer-info {
+    margin-top: 10px; /* Space above the info text */
+  }
+  
+  .social-links {
+    margin-top: 5px; /* Space above social links */
+  }
+  
+  .social-links a {
+    color: #ffd700; /* Gold color for social links */
+    text-decoration: none; /* No underline */
+    margin: 0 10px; /* Space between social links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .social-links a:hover {
+    color: #ffc107; /* Change color on hover */
+  }
+  

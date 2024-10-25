@@ -1,0 +1,103 @@
+/* src/modules/buyer/Cart.css */
+.cart {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 320px); /* Adjust based on your footer height */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cart h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  gap: 10px;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+/* New styles for increase and decrease buttons */
+.increase-button,
+.decrease-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #007bff; /* Blue background for increase */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.increase-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.decrease-button {
+  background-color: #ffc107; /* Yellow background for decrease */
+}
+
+.decrease-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.cart-total {
+  text-align: center;
+  margin-top: 20px;
+}
+.cart-total:last-child {
+  border-bottom: none; /* Remove border for last item */
+}
+.checkout-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue for checkout */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Add some space above */
+  font-size: 16px; /* Slightly larger font size */
+}
+.checkout-button:hover {
+  background-color: #0056b3;
+}

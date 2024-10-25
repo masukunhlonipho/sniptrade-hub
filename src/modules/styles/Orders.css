@@ -1,0 +1,61 @@
+/* Orders.css */
+
+.orders-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 320px); /* Adjust based on your footer height */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .orders-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .no-orders-message {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    gap: 10px;
+
+  }
+  
+  .order-item:last-child {
+    border-bottom: none; /* Remove border for last item */
+  }
+  
+  .delete-order-button {
+    background-color: #f44336; /* Red color for delete button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-order-button:hover {
+    background-color: #c62828; /* Darker red on hover */
+  }
+  

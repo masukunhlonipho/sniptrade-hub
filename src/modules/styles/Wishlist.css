@@ -1,0 +1,72 @@
+/* src/modules/buyer/Wishlist.css */
+.wishlist {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 320px); /* Adjust based on your footer height */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .wishlist h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .wishlist-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .wishlist-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    gap: 10px;
+  }
+  
+  .wishlist-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .wishlist-item-details {
+    flex: 1;
+  }
+  
+  .remove-button {
+    background-color: #dc3545; /* Red for remove */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  /* New styles for Add to Cart button */
+  .add-to-cart-button {
+    background-color: #007bff; /* Blue for add to cart */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

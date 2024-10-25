@@ -1,0 +1,52 @@
+/* src/modules/admin/AdminHome.css */
+
+.admin-home {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .admin-home-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .action-button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Theme blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1; /* Flex to evenly distribute buttons */
+    margin: 10px; /* Add space between buttons */
+    min-width: 150px; /* Minimum width for buttons */
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .info-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef; /* Slightly darker background for contrast */
+    border-radius: 5px;
+  }
+  
+  .admin-home-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

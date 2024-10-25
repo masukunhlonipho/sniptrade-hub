@@ -1,0 +1,58 @@
+/* src/components/FooterBuyer.css */
+
+.footer-buyer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px; /* Padding for footer */
+    text-align: center;
+    position: relative; /* Ensure positioning is relative */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to bottom */
+  }  
+  .footer-content {
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .footer-links {
+    display: flex; /* Flexbox layout for links */
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Space between links */
+    margin-bottom: 15px; /* Space below links */
+  }
+  
+  .footer-links a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-links a:hover {
+    color: #ffc107; /* Change to gold on hover */
+  }
+  
+  .footer-info {
+    margin-top: 10px; /* Space above info section */
+  }
+  
+  .social-links {
+    margin-top: 10px; /* Space above social links */
+  }
+  
+  .social-links a {
+    color: #ffffff; /* White text for social links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Space between social links */
+  }
+  
+  .social-links a:hover {
+    color: #ffc107; /* Change to gold on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-links {
+      flex-direction: column; /* Stack links vertically on smaller screens */
+      gap: 10px; /* Space between links */
+    }
+  }
+  
